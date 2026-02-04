@@ -197,6 +197,8 @@ h1{
     width: 220px;
     margin-right:10px;
     margin-bottom: 30px;
+
+  
 }
 }
 
@@ -213,4 +215,15 @@ h1{
     margin-right:10px;
     margin-bottom: 30px;
 }
+  .show-sidebar{
+        display: inline;
+        position: fixed;
+        top: 4.4rem;
+        height: auto;
+    }
+}
+@media (max-width:928px) {
+    .headersearch input{
+width: 300px;
+    }
 }
